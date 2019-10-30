@@ -14,5 +14,5 @@ the constant pool, fields, methods, and meta data. Then we will pick out a few
 of the most interesting sections and
 
 # 2. They Layout
-
-# 
+ 
+#
