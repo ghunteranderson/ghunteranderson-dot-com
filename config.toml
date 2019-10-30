@@ -1,0 +1,4 @@
+baseURL = "https://www.ghunteranderson.com/"
+languageCode = "en-us"
+title = "We Code"
+theme = "ananke"
