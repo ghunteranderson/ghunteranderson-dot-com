@@ -1,4 +1,54 @@
-baseURL = "https://www.ghunteranderson.com/"
 languageCode = "en-us"
-title = "We Code"
-theme = "ananke"
+title = "G. Hunter Anderson"
+theme = "hugo-coder"
+
+paginate = 20
+
+# Style list: https://help.farbox.com/pygments.html
+pygmentsstyle = "friendly"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "ghunteranderson"
+
+[params]
+    author = "G. Hunter Anderson"
+    info = "just another dev"
+    description = "Hunter Anderson's personal blog"
+    keywords = "blog,developer,programmer,java"
+    avatarurl = "/images/glasses_avatar.jpeg"
+
+    favicon_32 = "/imgages/favicon-32x32.png"
+    favicon_16 = "/imgages/favicon-16x16.png"
+
+    footercontent = "Don't just write code. Craft it."
+
+    hidecredits = false
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/ghunteranderson/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 2
+    url = "https://twitter.com/ghunteranderson/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "/about"
