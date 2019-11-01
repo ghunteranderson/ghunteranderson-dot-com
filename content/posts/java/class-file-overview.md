@@ -189,12 +189,4 @@ These 2 bytes reference a UTF-8 constant index with the method descriptor.
 # 6.4 Instructions
 Stored in the attributes section of a method are the instruction.
 
-# 7. Attributes
-The class file can have several attributes attached at the end. The class file
-is designed so that if a JVM does not recognize an attribute, it can skip over it
-and ignore it.
-![High level class attributes layout](/images/jvm/class-attributes-high-level.svg)
-# 7.1 Source File
-# 7.2 Annotations
-
 # 8. Conclusion
