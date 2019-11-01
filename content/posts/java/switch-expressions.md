@@ -8,14 +8,14 @@ things more concisely than we can today. They are available for preview in JDK 1
 
 # Introduction
 Java has released an exciting new language feature in preview mode called switch
-expressions ([JEP-354](https://openjdk.java.net/jeps/354)). They allow switches
-that will evaluate to a value. This idea is similar to the ternary operator
-which allows in line if-else statements to be evaluated to a value.   
+expressions ([JEP-354](https://openjdk.java.net/jeps/354)). These are a variation
+of switch statements which can be evaluated to a value. This idea is similar to
+the ternary operator which allows in line if-else statements to return a value.   
 
-The code you see here can be ran with JDK13 and the `--enable-preview` flag but,
+The code you see here can be ran with JDK 13 and the `--enable-preview` flag but,
 **be warned**! A preview feature is "fully specified, fully implemented, and
-yet impermanent" ([JEP-12](http://openjdk.java.net/jeps/12)). Adding it a product
-before it reaches permanent status is risky.
+yet impermanent" ([JEP-12](http://openjdk.java.net/jeps/12)). Adding a preview
+however, there is a proposal to make switch statements permanent in JDK 14.
 
 # Statements vs Expressions
 When we talk about statements in source code, we are talking about a single line
@@ -26,10 +26,10 @@ boolean contact = eligible && available;
 String name = user.getName();
 ```
 An expression is typically a fragment and will evaluate to some value.
-From above, we have the algebraic expression `4*(7+3)` that will evaluate to 40.
-The second statement has the boolean expression `eligible && available`. The
-third statement has the expression `user.getName()` which will evaluate to a
-String reference.
+From above, we have the algebraic expression `4*(7+3)` which evaluates to 40.
+The second statement has the boolean expression `eligible && available` which
+evaluates to either true or false. Finally, the third statement has the expression
+`user.getName()` which will evaluate to a String reference.
 
 # The Switch Expression
 Switch expressions borrow from the syntax of traditional switch statements but
@@ -57,7 +57,7 @@ switch(errorCode){
 }
 ```
 
-There are drawbacks with this traditional switch statements.   
+There are drawbacks with this traditional switch statement.   
 
 1. The code is error-prone. It is easy to miss a break statement by mistake
 allowing execution to fall through to the next case block. Syntax that lends
