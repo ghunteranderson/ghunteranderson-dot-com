@@ -4,7 +4,7 @@ title = "G. Hunter Anderson"
 theme = "hugo-coder"
 
 paginate = 20
-canonifyurls = true
+#canonifyurls = true
 
 # Style list: https://help.farbox.com/pygments.html
 pygmentsstyle = "friendly"
