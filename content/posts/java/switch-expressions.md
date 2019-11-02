@@ -14,8 +14,8 @@ the ternary operator which allows in line if-else statements to return a value.
 
 The code you see here can be ran with JDK 13 and the `--enable-preview` flag but,
 **be warned**! A preview feature is "fully specified, fully implemented, and
-yet impermanent" ([JEP-12](http://openjdk.java.net/jeps/12)). Adding a preview
-however, there is a proposal to make switch statements permanent in JDK 14.
+yet impermanent" ([JEP-12](http://openjdk.java.net/jeps/12)). However, there is
+a proposal to make switch statements permanent in JDK 14.
 
 # Statements vs Expressions
 When we talk about statements in source code, we are talking about a single line
