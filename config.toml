@@ -42,6 +42,11 @@ disqusShortname = "ghunteranderson"
     icon = "fab fa-twitter fa-2x"
     weight = 2
     url = "https://twitter.com/ghunteranderson/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://linkedin.com/in/ghunteranderson/"
 
 # Menu links
 [[menu.main]]
