@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "G. Hunter Anderson"
 theme = "hugo-coder"
-
+baseURL="https://www.ghunteranderson.com/"
 paginate = 20
 
 # Style list: https://help.farbox.com/pygments.html
