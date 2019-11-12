@@ -7,28 +7,6 @@ div.card {
     margin: 25px 10px 25px 10px;
 }
 
-ul.card {
-    margin: 0px;
-    display:table;
-    padding: 0px;
-}
-
-ul.card li {
-    background-color: rgb(240, 240, 240);
-    display: block;
-    padding: 10px 15px 10px 15px;
-    border-radius: 4px;
-    box-shadow: -5px 5px 10px #aaaaaa;
-    margin: 0px 15px 25px 15px;
-    width: fit-content;
-    float: left;
-}
-
-ul.card li {
-    background-color: rgb(80, 80, 80);
-    color: rgb(255, 255, 255);
-}
-
 
 div.card span,
 div.card h1,
@@ -51,4 +29,29 @@ div.card img {
     min-width: 30px;
     float: right;
     border-radius: 4px;
+}
+
+
+/* Miniature Cards */
+ul.card {
+    margin: 0px;
+    display:table;
+    padding: 0px;
+}
+
+ul.card li {
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    box-shadow: -5px 5px 10px #aaaaaa;
+    margin: 0px 15px 25px 15px;
+    width: fit-content;
+    float: left;
+}
+
+ul.card li span.card-content {
+    font-size: 0.8em;
+    display: none; /* This is overridden by JS at runtime */
 }
