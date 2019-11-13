@@ -1,3 +1,5 @@
+/* --------------- Standard Cards --------------- */
+
 div.card {
     background-color: rgba(240, 240, 240);
     display: block;
@@ -6,7 +8,6 @@ div.card {
     box-shadow: -5px 5px 10px #aaaaaa;
     margin: 25px 10px 25px 10px;
 }
-
 
 div.card span,
 div.card h1,
@@ -18,7 +19,7 @@ div.card h6 {
     margin: 0px 0px 10px 0px;
 }
 
-span.card-meta{
+div.card span.card-meta{
     display: table;
     color: rgba(100, 100, 100);
 }
@@ -31,8 +32,8 @@ div.card img {
     border-radius: 4px;
 }
 
+/* --------------- Miniature Cards --------------- */
 
-/* Miniature Cards */
 ul.card {
     margin: 0px;
     display:table;
@@ -47,11 +48,11 @@ ul.card li {
     border-radius: 4px;
     box-shadow: -5px 5px 10px #aaaaaa;
     margin: 0px 15px 25px 15px;
-    width: fit-content;
     float: left;
+    width: fit-content;
 }
 
 ul.card li span.card-content {
     font-size: 0.8em;
-    display: none; /* This is overridden by JS at runtime */
+    display: none;
 }

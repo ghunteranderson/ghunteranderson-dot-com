@@ -1,22 +1,32 @@
-let cards = document.getElementsByClassName("card-content");
-for(let i=0; i<cards.length; i++){
-    let card = cards[i]
-    if(card.parentNode && card.parentNode.tagName === 'LI'){
-        let parent = card.parentNode;
-        parent.style= "cursor: pointer;"
-        // TODO: This isn't the right way to handle this
-        // But I don't want to pull in jquery just to hide
-        // and show elements.
-        parent.onclick = (event) => {
-            if(card.isCardOpen){
-                card.isCardOpen = false;
-                card.style="display:none;"
+// Attach toggle listener to any mini cards
+$(document).ready(() => {
+    $('ul.card,ol.card').each((index, cardSet) => {
+        let dynamicCards = [];
+        let popouts = [];
+        $(cardSet).children().each((index, card) => {
+            $popout = $("span.card-content", card)
+            if($popout.length > 0){
+                dynamicCards.push(card)
+                $popout.each((index, po) => popouts.push(po))
             }
-            else {
-                card.isCardOpen = true;
-                card.style="display:block;"
-            }
-        }
+        });
 
-    }
-}
+        $(popouts).css('display', 'table')
+        $(popouts).hide()
+
+        $(dynamicCards).css('cursor', 'pointer')
+        $(dynamicCards).click((event) => {
+            let target = event.currentTarget;
+            $(popouts).hide()
+            
+            if(target.isCardOpen){
+                target.isCardOpen = false
+            } else{
+                target.isCardOpen = true
+                $('span.card-content', event.currentTarget).show()
+
+            }
+        })
+
+    })
+})
