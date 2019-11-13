@@ -1,0 +1,53 @@
+/* --------------- Standard Cards --------------- */
+
+div.card {
+    background-color: rgba(240, 240, 240);
+    display: block;
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: -5px 5px 10px #aaaaaa;
+    margin: 25px 10px 25px 10px;
+}
+
+div.card span,
+div.card h1,
+div.card h2,
+div.card h3,
+div.card h4,
+div.card h5,
+div.card h6 {
+    margin: 0px 0px 10px 0px;
+}
+
+div.card span.card-meta{
+    display: table;
+    color: rgba(100, 100, 100);
+}
+
+div.card img {
+    max-width: 100px;
+    width: 25%;
+    min-width: 30px;
+    float: right;
+    border-radius: 4px;
+}
+
+/* --------------- Miniature Cards --------------- */
+
+ul.card {
+    margin: 0px;
+    display:table;
+    padding: 0px;
+}
+
+ul.card li {
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    box-shadow: -5px 5px 10px #aaaaaa;
+    margin: 0px 15px 25px 15px;
+    float: left;
+    width: fit-content;
+}

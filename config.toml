@@ -29,7 +29,7 @@ disqusShortname = "ghunteranderson"
     rtl = false
 
     math = true
-    #custom_css = ["css/custom.css"]
+    custom_css = ["css/cards.css"]
 
 # Social links
 [[params.social]]
@@ -56,4 +56,4 @@ disqusShortname = "ghunteranderson"
 [[menu.main]]
     name = "About"
     weight = 2
-    url = "https://linkedin.com/in/ghunteranderson/"
+    url = "/me"
