@@ -51,8 +51,3 @@ ul.card li {
     float: left;
     width: fit-content;
 }
-
-ul.card li span.card-content {
-    font-size: 0.8em;
-    display: none;
-}
