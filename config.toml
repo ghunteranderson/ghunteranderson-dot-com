@@ -57,3 +57,7 @@ disqusShortname = "ghunteranderson"
     name = "About"
     weight = 2
     url = "/me"
+[[menu.main]]
+    name = "Software"
+    weight = 3
+    url = "/projects"
