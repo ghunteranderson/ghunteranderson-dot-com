@@ -30,8 +30,11 @@ params:
   hidecopyright: true
 
   rtl: false
-
   math: true
+
+  goatCounter:
+    code: ghunteranderson
+
   social:
   - name: Github
     icon: fa fa-github fa-2x"
