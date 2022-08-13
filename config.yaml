@@ -1,0 +1,53 @@
+languageCode: en-us
+title: G. Hunter Anderson
+theme: hugo-coder
+baseURL: https://www.ghunteranderson.com/
+paginate: 20
+
+# Style list: https://help.farbox.com/pygments.html
+pygmentsstyle: friendly
+pygmentscodefences: true
+pygmentscodefencesguesssyntax: true
+
+disqusShortname: ghunteranderson
+
+params:
+  author: G. Hunter Anderson
+  info: just another dev
+  description: Hunter Anderson's personal blog
+  keywords: blog,developer,programmer,java
+  avatarurl: /images/me.jpg
+
+  favicon_32: /imgages/favicon-32x32.png
+  favicon_16: /imgages/favicon-16x16.png
+
+  colorScheme: light
+  hidecolorschemetoggle: true
+
+  footercontent: Don't just write code. Craft it.
+
+  hidecredits: false
+  hidecopyright: true
+
+  rtl: false
+
+  math: true
+  social:
+  - name: Github
+    icon: fa fa-github fa-2x"
+    weight: 1
+    url: https://github.com/ghunteranderson/
+  - name: Twitter
+    icon: fa fa-twitter fa-2x"
+    weight: 2
+    url: https://twitter.com/ghunteranderson/
+  - name: LinkedIn
+    icon: fa fa-linkedin fa-2x
+    weight: 3
+    url: https://linkedin.com/in/ghunteranderson/
+
+menu:
+  main:
+  - name: Blog
+    weight: 1
+    url: /posts/
