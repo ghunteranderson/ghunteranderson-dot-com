@@ -16,7 +16,7 @@ disqusShortname = "ghunteranderson"
     info = "just another dev"
     description = "Hunter Anderson's personal blog"
     keywords = "blog,developer,programmer,java"
-    avatarurl = "/images/glasses_avatar.jpeg"
+    avatarurl = "/images/me.jpg"
 
     favicon_32 = "/imgages/favicon-32x32.png"
     favicon_16 = "/imgages/favicon-16x16.png"
