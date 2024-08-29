@@ -24,6 +24,9 @@ params:
   colorScheme: light
   hidecolorschemetoggle: true
 
+  customCSS:
+  - "css/tweaks.css"
+
   footercontent: Don't just write code. Craft it.
 
   hidecredits: false
@@ -40,17 +43,29 @@ params:
     icon: fa fa-github fa-2x"
     weight: 1
     url: https://github.com/ghunteranderson/
-  - name: Twitter
-    icon: fa fa-twitter fa-2x"
-    weight: 2
-    url: https://twitter.com/ghunteranderson/
   - name: LinkedIn
     icon: fa fa-linkedin fa-2x
-    weight: 3
+    weight: 2
     url: https://linkedin.com/in/ghunteranderson/
+  - name: Email
+    icon: fas fa-envelope fa-2x"
+    weight: 3
+    url: mailto:hunter@txstate.edu
 
 menu:
   main:
-  - name: Blog
+  - name: About Me
     weight: 1
+    url: /#aboutme
+  - name: Research
+    weight: 2
+    url: /#research
+  - name: Teaching
+    weight: 3
+    url: /#teaching
+  - name: Service
+    weight: 4
+    url: /#service
+  - name: Blog
+    weight: 5
     url: /posts/
