@@ -7,3 +7,11 @@ redirects:
   to = "https://github.com/ghunteranderson/jsemver"
   status = 302
   force = true
+
+
+build:
+  command: hugo --gc --minify
+  publish: public
+  environment:
+    HUGO_VERSION: "0.133.1"
+  
