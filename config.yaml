@@ -40,7 +40,7 @@ params:
 
   social:
   - name: Github
-    icon: fa fa-github fa-2x"
+    icon: fa fa-github fa-2x
     weight: 1
     url: https://github.com/ghunteranderson/
   - name: LinkedIn
@@ -48,7 +48,7 @@ params:
     weight: 2
     url: https://linkedin.com/in/ghunteranderson/
   - name: Email
-    icon: fas fa-envelope fa-2x"
+    icon: fas fa-envelope fa-2x
     weight: 3
     url: mailto:hunter@txstate.edu
 
