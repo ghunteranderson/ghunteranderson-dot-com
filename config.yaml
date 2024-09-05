@@ -13,9 +13,10 @@ disqusShortname: ghunteranderson
 
 params:
   author: G. Hunter Anderson
-  info: just another dev
-  description: Hunter Anderson's personal blog
-  keywords: blog,developer,programmer,java
+  info: |
+    Software Architect | Doctoral Student
+  description: Hunter Anderson's personal website
+  keywords: blog,developer,programmer,java,phd
   avatarurl: /images/me.jpg
 
   favicon_32: /imgages/favicon-32x32.png
@@ -27,7 +28,7 @@ params:
   customCSS:
   - "css/tweaks.css"
 
-  footercontent: Don't just write code. Craft it.
+  footercontent: '"... on the shoulders of giants."'
 
   hidecredits: false
   hidecopyright: true
