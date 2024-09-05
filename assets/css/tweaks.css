@@ -1,0 +1,47 @@
+/* Fixed navigation header while scrolling*/
+.navigation {
+  position: fixed;
+  background-color: #fafafa;
+  z-index: 1000;
+}
+
+/* Using header URL fragments offsets scroll where headers are not hidden behind navigation bar */
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  height: 6rem;
+  margin-top: -6rem
+}
+
+/* Offset home page "about" section below navigation bar*/
+.about {
+  margin-top: 6rem;
+}
+
+/* Allow home page extension to have content on next */
+.container.centered {
+  flex-wrap: wrap;
+}
+
+/* Ignore line breaks within the  HTML <p> tags */
+p {
+  white-space-collapse: collapse;
+}
+
+
+/* Don't show external-link icon if the link is in the header. It's a bit cumbersome.*/
+.content article h1 a.external-link::after,
+.content article h2 a.external-link::after,
+.content article h3 a.external-link::after,
+.content article h4 a.external-link::after,
+.content article h5 a.external-link::after,
+.content article h6 a.external-link::after {
+  content: none;
+}
